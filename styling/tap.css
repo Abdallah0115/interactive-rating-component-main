@@ -1,0 +1,116 @@
+body{
+    background-color:  hsl(216, 12%, 8%);
+    margin: 0%;
+}
+.container
+{
+    margin-left : 8%;
+    margin-top: 10%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    
+}
+.box
+{
+    position: relative;   
+    transform-style:preserve-3d ;    
+}
+.card-1{
+    background-color: hsl(213, 19%, 18%) ;
+    border-radius:15px ;
+    width: 280px;
+    height: 280px;
+    color: white;
+    padding: 25px;
+    font-family: 'Overpass', sans-serif;
+    position: absolute;   
+    backface-visibility: hidden;
+}
+img[alt='']
+{
+    padding:5px;
+    background-color: hsla(217, 12%, 63%, 0.178) ;
+    border-radius: 25px;
+   
+}   
+p
+{
+    font-size:15px ;
+    color:  hsl(217, 12%, 63%);
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:20px ;
+   
+}
+input
+{
+    cursor: pointer;
+    
+}
+input[name~="r1"]
+{
+ padding: 10px 13px 10px 13px ;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  background-color:hsla(217, 12%, 63%, 0.178) ;
+  
+}
+input[name~="r1"]:hover
+{
+    background-color: hsl(25, 97%, 53%) ;
+    
+}
+input[id~="s2"]
+{
+    padding: 12px 122px 12px 122px;
+    border-radius: 20px;
+    border: none;
+    color:white ;
+    background-color: hsl(25, 97%, 53%);
+    font-weight:bold;
+    letter-spacing: 3px;
+    
+}
+.card-2
+{
+    background-color: hsl(213, 19%, 18%) ;
+    border-radius:15px ;
+    width: 250px;
+    height: 250px;
+    color: white;
+    padding: 25px;
+    font-family: 'Overpass', sans-serif;
+    position: absolute;    
+    backface-visibility: hidden;
+    transform: rotatey(180deg);
+}
+
+img[alt~="2"]
+{
+    margin-left: 18%;
+    margin-top: 5%;
+    height: 30%;
+}
+.mess
+{
+    color:hsl(25, 97%, 53%) ;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    background-color:hsla(217, 12%, 63%, 0.178) ;
+    border-radius: 15px;
+    font-weight: bold;
+
+}
+.card-2>h2
+{
+    text-align: center;
+}
+.tg
+{
+    text-align: center;
+    
+}
